@@ -12,5 +12,14 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('cliente.inicio');
 });
+Route::get('/cadastrar/cliente/csv', function () {
+    return view('cliente.cadastrar');
+});
+
+Route::post('/cadastrar/cliente/csv','cliente\ClienteController@cadastrar');
+Route::get('/clientes','cliente\ClienteController@listar');
+
+Route::post('/cliente/exportar/csv','cliente\ClienteController@exportar');
+Route::post('/cliente/exportar/xls','cliente\ClienteController@exportarXLS');
