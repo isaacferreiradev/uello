@@ -1,0 +1,180 @@
+GET https://maps.googleapis.com/maps/api/geocode/xml?address=1600+Amphitheatre+Parkway,+Mountain+View,+CA&key=AIzaSyDPkdTGo8aIQ0H3yMZc72s8PkAbUlvQV8U
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImF1dGgiOiJST0xFX0FETUlOLFJPTEVfVVNFUiIsImV4cCI6MTU0MTIwNDUwOX0.RgRxOAYx4jkFJjDu9FiYp6CRYoi9_eXBJkAU1E1jNjhh8spzos22qcrnMAGED2hyEF16B_Xa1dnxTgvTby1bLg
+
+<> 2018-10-04T124152.200.xml
+
+###
+
+GET http://127.0.0.1:8080/api/localizacaos/true
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImF1dGgiOiJST0xFX0FETUlOLFJPTEVfVVNFUiIsImV4cCI6MTU0MTIwNDUwOX0.RgRxOAYx4jkFJjDu9FiYp6CRYoi9_eXBJkAU1E1jNjhh8spzos22qcrnMAGED2hyEF16B_Xa1dnxTgvTby1bLg
+
+<> 2018-10-03T093033.200.json
+
+###
+
+GET http://127.0.0.1:8080/api/localizacaos/true
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImF1dGgiOiJST0xFX0FETUlOLFJPTEVfVVNFUiIsImV4cCI6MTU0MTIwNDUwOX0.RgRxOAYx4jkFJjDu9FiYp6CRYoi9_eXBJkAU1E1jNjhh8spzos22qcrnMAGED2hyEF16B_Xa1dnxTgvTby1bLg
+
+###
+
+GET http://127.0.0.1:8080/api/localizacaos/true
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImF1dGgiOiJST0xFX0FETUlOLFJPTEVfVVNFUiIsImV4cCI6MTU0MTIwNDUwOX0.RgRxOAYx4jkFJjDu9FiYp6CRYoi9_eXBJkAU1E1jNjhh8spzos22qcrnMAGED2hyEF16B_Xa1dnxTgvTby1bLg
+
+###
+
+GET http://127.0.0.1:8080/api/localizacaos/true
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImF1dGgiOiJST0xFX0FETUlOLFJPTEVfVVNFUiIsImV4cCI6MTU0MTIwNDUwOX0.RgRxOAYx4jkFJjDu9FiYp6CRYoi9_eXBJkAU1E1jNjhh8spzos22qcrnMAGED2hyEF16B_Xa1dnxTgvTby1bLg
+
+###
+
+GET http://127.0.0.1:8080/api/localizacaos/true
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImF1dGgiOiJST0xFX0FETUlOLFJPTEVfVVNFUiIsImV4cCI6MTU0MTIwNDUwOX0.RgRxOAYx4jkFJjDu9FiYp6CRYoi9_eXBJkAU1E1jNjhh8spzos22qcrnMAGED2hyEF16B_Xa1dnxTgvTby1bLg
+
+<> 2018-10-03T092420.500.txt
+
+###
+
+POST http://127.0.0.1:8080/api/localizacaos/true
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImF1dGgiOiJST0xFX0FETUlOLFJPTEVfVVNFUiIsImV4cCI6MTU0MTIwNDUwOX0.RgRxOAYx4jkFJjDu9FiYp6CRYoi9_eXBJkAU1E1jNjhh8spzos22qcrnMAGED2hyEF16B_Xa1dnxTgvTby1bLg
+
+<> 2018-10-03T092415.405.txt
+
+###
+
+POST http://127.0.0.1:8080/api/authenticate
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{     "password": "admin",     "rememberMe": true,     "username": "admin" }
+
+<> 2018-10-03T092150.200.json
+
+###
+
+POST http://127.0.0.1:8080/api/authenticate?username=admin&password=admin&rememberMe=true
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+<> 2018-10-03T092044.400.txt
+
+###
+
+POST http://127.0.0.1:8080/api/authenticate?username=admin&password=admin
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+<> 2018-10-03T092003.400.txt
+
+###
+
+POST http://127.0.0.1:8080/api/authenticate?username=admin&password=admin
+Accept: */*
+Cache-Control: no-cache
+Content-Type: json
+
+<> 2018-10-03T091929.415.txt
+
+###
+
+POST http://127.0.0.1:8080/api/authenticate?username=admin&password=admin
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-10-03T091840.415.txt
+
+###
+
+GET http://127.0.0.1:8080/api/authoriazation?address=1600+Amphitheatre+Parkway,+Mountain+View,+CA&key=AIzaSyA0HqrymW3qS-Wx5cMH4Ao9KFmgT3QVN2I&address=1600+Amphitheatre+Parkway,+Mountain+View,+CA&key=AIzaSyA0HqrymW3qS-Wx5cMH4Ao9KFmgT3QVN2I
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-10-03T091506.401.txt
+
+###
+
+GET http://127.0.0.1:8080/api/localizacaos/true?address=1600+Amphitheatre+Parkway,+Mountain+View,+CA&key=AIzaSyA0HqrymW3qS-Wx5cMH4Ao9KFmgT3QVN2I&address=1600+Amphitheatre+Parkway,+Mountain+View,+CA&key=AIzaSyA0HqrymW3qS-Wx5cMH4Ao9KFmgT3QVN2I
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-10-03T091421.401.txt
+
+###
+
+GET https://maps.googleapis.com/maps/api/geocode/json?address=1600+Amphitheatre+Parkway,+Mountain+View,+CA&key=AIzaSyA0HqrymW3qS-Wx5cMH4Ao9KFmgT3QVN2I&address=1600+Amphitheatre+Parkway,+Mountain+View,+CA&key=AIzaSyA0HqrymW3qS-Wx5cMH4Ao9KFmgT3QVN2I
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-10-03T121437.200.json
+
+###
+
+GET https://maps.googleapis.com/maps/api/geocode/json?address=1600+Amphitheatre+Parkway,+Mountain+View,+CA&key=AIzaSyA0HqrymW3qS-Wx5cMH4Ao9KFmgT3QVN2I&address=1600+Amphitheatre+Parkway,+Mountain+View,+CA&key=AIzaSyA0HqrymW3qS-Wx5cMH4Ao9KFmgT3QVN2I
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-10-03T121430.200.json
+
+###
+
+GET https://maps.googleapis.com/maps/api/geocode/json?address=1600+Amphitheatre+Parkway,+Mountain+View,+CA&key=AIzaSyA0HqrymW3qS-Wx5cMH4Ao9KFmgT3QVN2I&address=1600+Amphitheatre+Parkway,+Mountain+View,+CA&key=AIzaSyA0HqrymW3qS-Wx5cMH4Ao9KFmgT3QVN2I
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-10-03T121149.200.json
+
+###
+
+POST https://maps.googleapis.com/maps/api/geocode/json?address=1600+Amphitheatre+Parkway,+Mountain+View,+CA&key=AIzaSyA0HqrymW3qS-Wx5cMH4Ao9KFmgT3QVN2I&address=1600+Amphitheatre+Parkway,+Mountain+View,+CA&key=AIzaSyA0HqrymW3qS-Wx5cMH4Ao9KFmgT3QVN2I
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-10-03T121123.400.json
+
+###
+
+POST https://maps.googleapis.com/maps/api/geocode/json?address=1600+Amphitheatre+Parkway,+Mountain+View,+CA&key=AIzaSyA0HqrymW3qS-Wx5cMH4Ao9KFmgT3QVN2I&address=1600+Amphitheatre+Parkway,+Mountain+View,+CA&key=AIzaSyA0HqrymW3qS-Wx5cMH4Ao9KFmgT3QVN2I
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-10-03T121014.400.json
+
+###
+
+POST https://maps.googleapis.com/maps/api/geocode/json?address=1600+Amphitheatre+Parkway,+Mountain+View,+CA&key=AIzaSyA0HqrymW3qS-Wx5cMH4Ao9KFmgT3QVN2I
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-10-03T120940.400.json
+
+###
+
+POST https://maps.googleapis.com/maps/api/geocode/json?address=1600+Amphitheatre+Parkway,+Mountain+View,+CA&key=AIzaSyA0HqrymW3qS-Wx5cMH4Ao9KFmgT3QVN2I
+Accept: */*
+Cache-Control: no-cache
+
+###
+

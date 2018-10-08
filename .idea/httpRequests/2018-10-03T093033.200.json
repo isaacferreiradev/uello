@@ -1,0 +1,18 @@
+[
+    {
+        "id": "5bb542bc749e042ab040d4f9",
+        "endereco": "Rosa vieira Pinto",
+        "numero": 7,
+        "qtdReservada": 23,
+        "qtdTotais": 2222,
+        "status": true
+    },
+    {
+        "id": "5bb5590a749e040a38ee61f7",
+        "endereco": "Rosa vieira Pinto",
+        "numero": 7,
+        "qtdReservada": 1,
+        "qtdTotais": 10,
+        "status": true
+    }
+]

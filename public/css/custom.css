@@ -2,3 +2,12 @@
     -webkit-box-shadow: 1px 1px 16px -1px #000000;
     box-shadow: 1px 1px 16px -1px #000000;
 }
+
+.spinner {
+    border: 8px solid rgba(0, 0, 0, 0.1);
+    border-left-color: #232323;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    animation: spin 1s linear infinite;
+}

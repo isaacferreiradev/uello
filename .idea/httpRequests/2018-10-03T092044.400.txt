@@ -1,0 +1,8 @@
+{
+  "type" : "https://www.jhipster.tech/problem/problem-with-message",
+  "title" : "Bad Request",
+  "status" : 400,
+  "detail" : "JSON parse error: Unrecognized token 'username': was expecting ('true', 'false' or 'null'); nested exception is com.fasterxml.jackson.core.JsonParseException: Unrecognized token 'username': was expecting ('true', 'false' or 'null')\n at [Source: (PushbackInputStream); line: 1, column: 10]",
+  "path" : "/api/authenticate",
+  "message" : "error.http.400"
+}

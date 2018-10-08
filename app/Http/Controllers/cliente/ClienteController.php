@@ -54,18 +54,20 @@ class ClienteController extends Controller
                         "longitude" => $long,
                         "latitude" => $lat,
                     ]);
-
+                    $retorno->status = 1;
                 } else {
                     $enderecoExplodeIfen = explode("-", $enderecoExplodeVirgula[1]);
                     $cliente->endereco()->create([
                         "logradouro" => $enderecoExplodeVirgula[0],
-                        "numero" => $enderecoExplodeVirgula[1],
-                        "bairro" => $enderecoExplodeIfen[0],
+                        "numero" => $enderecoExplodeIfen[0],
+                        "bairro" => $enderecoExplodeIfen[1],
                         "cep" => $cep,
-                        "cidade" => $enderecoExplodeIfen[1],
+                        "cidade" => $enderecoExplodeIfen[2],
                         "longitude" => $long,
                         "latitude" => $lat,
                     ]);
+
+                    $retorno->status = 1;
 
                 }
 
@@ -75,10 +77,13 @@ class ClienteController extends Controller
                 return $retorno;
             }
         } catch (\Exception $e) {
+
             $retorno->status = 0;
             $retorno->erro = $e->getMessage();
             return $retorno;
         }
+
+        return $retorno;
 
 
     }
@@ -107,6 +112,7 @@ class ClienteController extends Controller
                     $clientes[] = $cliente;
                     if (!empty($status)) {
                         $retorno = $this->parserEndereco($cliente, $coluna[4], $coluna[5]);
+
                         if (empty($retorno->status)) {
                             if ($retorno->erro === "OVER_QUERY_LIMIT") {
                                 //faça tudo ou não faça nada.
@@ -120,6 +126,7 @@ class ClienteController extends Controller
                         $cliente->delete();
                     }
                 } catch (\Exception $ex) {
+
                     if ($ex->getCode() == 22007) {
                         $cliente->status = 0;
                         $cliente->erro = "Formato de data inválido.";

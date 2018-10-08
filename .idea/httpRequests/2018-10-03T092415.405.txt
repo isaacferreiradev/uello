@@ -1,0 +1,8 @@
+{
+  "type" : "https://www.jhipster.tech/problem/problem-with-message",
+  "title" : "Method Not Allowed",
+  "status" : 405,
+  "detail" : "Request method 'POST' not supported",
+  "path" : "/api/localizacaos/true",
+  "message" : "error.http.405"
+}

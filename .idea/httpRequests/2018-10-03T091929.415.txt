@@ -1,0 +1,8 @@
+{
+  "type" : "https://www.jhipster.tech/problem/problem-with-message",
+  "title" : "Unsupported Media Type",
+  "status" : 415,
+  "detail" : "Invalid mime type \"json\": does not contain '/'",
+  "path" : "/api/authenticate",
+  "message" : "error.http.415"
+}

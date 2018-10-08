@@ -1,0 +1,8 @@
+{
+  "type" : "https://www.jhipster.tech/problem/problem-with-message",
+  "title" : "Internal Server Error",
+  "status" : 500,
+  "detail" : "Handler dispatch failed; nested exception is java.lang.Error: Unresolved compilation problem: \n\tThis method must return a result of type List<Localizacao>\n",
+  "path" : "/api/localizacaos/true",
+  "message" : "error.http.500"
+}
